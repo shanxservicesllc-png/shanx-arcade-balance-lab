@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: same seed and config generate byte-identical layouts and fingerprints
+ok 1 - same seed and config generate byte-identical layouts and fingerprints
+  ---
+  duration_ms: 3.216236
+  type: 'test'
+  ...
+# Subtest: layout includes exactly two of each active symbol
+ok 2 - layout includes exactly two of each active symbol
+  ---
+  duration_ms: 1.706768
+  type: 'test'
+  ...
+# Subtest: different seed affects layout on supplied fixture
+ok 3 - different seed affects layout on supplied fixture
+  ---
+  duration_ms: 0.268143
+  type: 'test'
+  ...
+# Subtest: rejects too many pairs instead of crashing
+ok 4 - rejects too many pairs instead of crashing
+  ---
+  duration_ms: 1.048783
+  type: 'test'
+  ...
+# Subtest: rejects fractional pairs, invalid hints, unsafe sizes and empty seed
+ok 5 - rejects fractional pairs, invalid hints, unsafe sizes and empty seed
+  ---
+  duration_ms: 0.439592
+  type: 'test'
+  ...
+# Subtest: simulated play always solves and reports deterministic metrics
+ok 6 - simulated play always solves and reports deterministic metrics
+  ---
+  duration_ms: 10.800395
+  type: 'test'
+  ...
+# Subtest: hint count equal to pair count yields exactly one move per pair
+ok 7 - hint count equal to pair count yields exactly one move per pair
+  ---
+  duration_ms: 2.580424
+  type: 'test'
+  ...
+# Subtest: zero hints produce identical baselines and assisted metrics
+ok 8 - zero hints produce identical baselines and assisted metrics
+  ---
+  duration_ms: 4.381591
+  type: 'test'
+  ...
+# Subtest: rejects corrupt layout in analysis
+ok 9 - rejects corrupt layout in analysis
+  ---
+  duration_ms: 0.710572
+  type: 'test'
+  ...
+# Subtest: simulation random seeds and grid variants have no hangs
+ok 10 - simulation random seeds and grid variants have no hangs
+  ---
+  duration_ms: 47.135151
+  type: 'test'
+  ...
+# Subtest: export is a complete self-contained offline HTML document
+ok 11 - export is a complete self-contained offline HTML document
+  ---
+  duration_ms: 3.619946
+  type: 'test'
+  ...
+# Subtest: seed encoding cannot inject script tags into exported HTML
+ok 12 - seed encoding cannot inject script tags into exported HTML
+  ---
+  duration_ms: 2.493411
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 156.872875

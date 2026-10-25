@@ -1,0 +1,56 @@
+{
+  "schema": "arcade-balance-lab/report-v1",
+  "generatedBy": "Arcade Balance Lab 1.0",
+  "puzzle": {
+    "version": "1.0",
+    "config": {
+      "rows": 4,
+      "cols": 4,
+      "pairs": 8,
+      "hints": 2,
+      "seed": "SXS-0426"
+    },
+    "layout": [
+      1,
+      5,
+      4,
+      1,
+      6,
+      2,
+      3,
+      0,
+      4,
+      7,
+      7,
+      2,
+      3,
+      6,
+      0,
+      5
+    ],
+    "fingerprint": "A717EAEF"
+  },
+  "analysis": {
+    "solvable": true,
+    "reason": "Every included symbol occurs exactly twice; all pairs can be matched.",
+    "activeCards": 16,
+    "unusedCells": 0,
+    "trials": 32,
+    "baseline": {
+      "averageMoves": 12.28,
+      "averageMisses": 4.28,
+      "minMoves": 11,
+      "maxMoves": 14
+    },
+    "assisted": {
+      "averageMoves": 11.16,
+      "averageMisses": 3.16,
+      "minMoves": 10,
+      "maxMoves": 12
+    },
+    "averageMovesSaved": 1.12,
+    "mismatchRatio": 0.54,
+    "challengeBand": "Balanced",
+    "assumptions": "Perfect-recall memory player: each trial samples a seeded search order, remembers every observed card, takes any known pair, and otherwise explores unseen cards. A hint automatically completes one pair in one move. Estimates describe this model, not human performance."
+  }
+}

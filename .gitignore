@@ -1,0 +1,11 @@
+# No secrets or private learner data belong in a published repo.
+.env
+.env.*
+devpost/learner-profile.md
+*.key
+*.pem
+.DS_Store
+__pycache__/
+node_modules/
+playwright-report/
+test-results/

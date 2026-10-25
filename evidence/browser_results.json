@@ -1,0 +1,38 @@
+[
+  {
+    "case": "load complete main UI in offline browser",
+    "status": "PASS"
+  },
+  {
+    "case": "same-seed deterministic re-run",
+    "status": "PASS"
+  },
+  {
+    "case": "bad pair count fails safely and preserves current board",
+    "status": "PASS"
+  },
+  {
+    "case": "actual matching cards, hint and reset controls",
+    "status": "PASS"
+  },
+  {
+    "case": "12-tile preset and empty disabled cells",
+    "status": "PASS"
+  },
+  {
+    "case": "HTML export button produces playable Blob; offline browser playback",
+    "status": "PASS"
+  },
+  {
+    "case": "JSON export button produces valid report Blob",
+    "status": "PASS"
+  },
+  {
+    "case": "no JS errors and no remote requests",
+    "status": "PASS"
+  },
+  {
+    "case": "mobile width without horizontal overflow",
+    "status": "PASS"
+  }
+]

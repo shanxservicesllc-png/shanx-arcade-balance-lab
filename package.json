@@ -1,0 +1,8 @@
+{
+  "name":"arcade-balance-lab",
+  "version":"1.0.0",
+  "private":true,
+  "description":"Reproducible offline memory-puzzle balance simulator and exporter",
+  "scripts":{"test":"node --test tests/engine.test.cjs"},
+  "license":"UNLICENSED"
+}
